@@ -48,7 +48,7 @@ quiver(X(10,90)/1e3+200, Y(10,90)/1e3, 10*Nscale, 0,0, 'r','filled');
 text(X(10,90)/1e3+200, Y(10,90)/1e3+100,'10 m^2/s','Color','r','FontSize',12),
 xlabel('x (km)','FontSize',14);
 ylabel('y (km)','FontSize',14);
-title('Transport Streamfuction','FontSize',14);
+title('Transport Streamfunction','FontSize',14);
 axis([0,Lx/1e3,0,Ly/1e3])
 exportgraphics(gcf,'Fig1streamfunction.pdf','ContentType', 'vector');
 %% Problem 1.(4)
